@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "30AAE803-9597-4EC6-B249-A3C0270F7FF5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "213E5A6E-978A-49FA-9B47-5FE435EA61CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuranAudioPlayer/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "playAudio(file:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92396FD7-30EF-40E6-B16E-59433633FED2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuranAudioPlayer/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "togglePlayPause()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92396FD7-30EF-40E6-B16E-59433633FED2 - bdb9ccfa08805b79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuranAudioPlayer.ContentView.playNextTrack() -&gt; ()"
+                  moduleName = "QuranAudioPlayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syed.muzammil/Documents/QuranAudioPlayer/QuranAudioPlayer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147">
+               </Location>
+               <Location
+                  uuid = "92396FD7-30EF-40E6-B16E-59433633FED2 - bf1d2cd39abee8b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuranAudioPlayer.ContentView.togglePlayPause() -&gt; ()"
+                  moduleName = "QuranAudioPlayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syed.muzammil/Documents/QuranAudioPlayer/QuranAudioPlayer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A5CE552D783AA800166512 /* QuranAudioPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CE542D783AA800166512 /* QuranAudioPlayerApp.swift */; };
+		A1A5CE572D783AA800166512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CE562D783AA800166512 /* ContentView.swift */; };
+		A1A5CE592D783AA900166512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE582D783AA900166512 /* Assets.xcassets */; };
+		A1A5CE5D2D783AA900166512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE5C2D783AA900166512 /* Preview Assets.xcassets */; };
+		A1A5CE672D783AA900166512 /* QuranAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CE662D783AA900166512 /* QuranAudioPlayerTests.swift */; };
+		A1A5CE712D783AA900166512 /* QuranAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CE702D783AA900166512 /* QuranAudioPlayerUITests.swift */; };
+		A1A5CE732D783AA900166512 /* QuranAudioPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CE722D783AA900166512 /* QuranAudioPlayerUITestsLaunchTests.swift */; };
+		A1A5CE9D2D783ADC00166512 /* ahmed-al-ajmi-036.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE7F2D783ADC00166512 /* ahmed-al-ajmi-036.mp3 */; };
+		A1A5CE9E2D783ADC00166512 /* ahmed-al-ajmi-055.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE802D783ADC00166512 /* ahmed-al-ajmi-055.mp3 */; };
+		A1A5CE9F2D783ADC00166512 /* ahmed-al-ajmi-056.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE812D783ADC00166512 /* ahmed-al-ajmi-056.mp3 */; };
+		A1A5CEA02D783ADC00166512 /* ahmed-al-ajmi-101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE822D783ADC00166512 /* ahmed-al-ajmi-101.mp3 */; };
+		A1A5CEA12D783ADC00166512 /* saud-al-shuraim-030.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE832D783ADC00166512 /* saud-al-shuraim-030.mp3 */; };
+		A1A5CEA22D783ADC00166512 /* saud-al-shuraim-052.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE842D783ADC00166512 /* saud-al-shuraim-052.mp3 */; };
+		A1A5CEA32D783ADC00166512 /* saud-al-shuraim-059.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE852D783ADC00166512 /* saud-al-shuraim-059.mp3 */; };
+		A1A5CEA42D783ADC00166512 /* saud-al-shuraim-064.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE862D783ADC00166512 /* saud-al-shuraim-064.mp3 */; };
+		A1A5CEA52D783ADC00166512 /* saud-al-shuraim-067.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE872D783ADC00166512 /* saud-al-shuraim-067.mp3 */; };
+		A1A5CEA62D783ADC00166512 /* saud-al-shuraim-068.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE882D783ADC00166512 /* saud-al-shuraim-068.mp3 */; };
+		A1A5CEA72D783ADC00166512 /* saud-al-shuraim-069.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE892D783ADC00166512 /* saud-al-shuraim-069.mp3 */; };
+		A1A5CEA82D783ADC00166512 /* saud-al-shuraim-070.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8A2D783ADC00166512 /* saud-al-shuraim-070.mp3 */; };
+		A1A5CEA92D783ADC00166512 /* saud-al-shuraim-071.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8B2D783ADC00166512 /* saud-al-shuraim-071.mp3 */; };
+		A1A5CEAA2D783ADC00166512 /* saud-al-shuraim-072.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8C2D783ADC00166512 /* saud-al-shuraim-072.mp3 */; };
+		A1A5CEAB2D783ADC00166512 /* saud-al-shuraim-073.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8D2D783ADC00166512 /* saud-al-shuraim-073.mp3 */; };
+		A1A5CEAC2D783ADC00166512 /* saud-al-shuraim-074.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8E2D783ADC00166512 /* saud-al-shuraim-074.mp3 */; };
+		A1A5CEAD2D783ADC00166512 /* saud-al-shuraim-075.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE8F2D783ADC00166512 /* saud-al-shuraim-075.mp3 */; };
+		A1A5CEAE2D783ADC00166512 /* saud-al-shuraim-076.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE902D783ADC00166512 /* saud-al-shuraim-076.mp3 */; };
+		A1A5CEAF2D783ADC00166512 /* saud-al-shuraim-077.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE912D783ADC00166512 /* saud-al-shuraim-077.mp3 */; };
+		A1A5CEB02D783ADC00166512 /* saud-al-shuraim-078.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE922D783ADC00166512 /* saud-al-shuraim-078.mp3 */; };
+		A1A5CEB12D783ADC00166512 /* saud-al-shuraim-079.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE932D783ADC00166512 /* saud-al-shuraim-079.mp3 */; };
+		A1A5CEB22D783ADC00166512 /* saud-al-shuraim-080.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE942D783ADC00166512 /* saud-al-shuraim-080.mp3 */; };
+		A1A5CEB32D783ADC00166512 /* saud-al-shuraim-082.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE952D783ADC00166512 /* saud-al-shuraim-082.mp3 */; };
+		A1A5CEB42D783ADC00166512 /* saud-al-shuraim-085.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE962D783ADC00166512 /* saud-al-shuraim-085.mp3 */; };
+		A1A5CEB52D783ADC00166512 /* saud-al-shuraim-086.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE972D783ADC00166512 /* saud-al-shuraim-086.mp3 */; };
+		A1A5CEB62D783ADC00166512 /* saud-al-shuraim-087.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE982D783ADC00166512 /* saud-al-shuraim-087.mp3 */; };
+		A1A5CEB72D783ADC00166512 /* saud-al-shuraim-088.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE992D783ADC00166512 /* saud-al-shuraim-088.mp3 */; };
+		A1A5CEB82D783ADC00166512 /* saud-al-shuraim-094.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE9A2D783ADC00166512 /* saud-al-shuraim-094.mp3 */; };
+		A1A5CEB92D783ADC00166512 /* saud-al-shuraim-097.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1A5CE9B2D783ADC00166512 /* saud-al-shuraim-097.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A5CE632D783AA900166512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A5CE492D783AA800166512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A5CE502D783AA800166512;
+			remoteInfo = QuranAudioPlayer;
+		};
+		A1A5CE6D2D783AA900166512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A5CE492D783AA800166512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A5CE502D783AA800166512;
+			remoteInfo = QuranAudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A5CE512D783AA800166512 /* QuranAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A5CE542D783AA800166512 /* QuranAudioPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAudioPlayerApp.swift; sourceTree = "<group>"; };
+		A1A5CE562D783AA800166512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A5CE582D783AA900166512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A5CE5A2D783AA900166512 /* QuranAudioPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuranAudioPlayer.entitlements; sourceTree = "<group>"; };
+		A1A5CE5C2D783AA900166512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A5CE622D783AA900166512 /* QuranAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A5CE662D783AA900166512 /* QuranAudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAudioPlayerTests.swift; sourceTree = "<group>"; };
+		A1A5CE6C2D783AA900166512 /* QuranAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A5CE702D783AA900166512 /* QuranAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAudioPlayerUITests.swift; sourceTree = "<group>"; };
+		A1A5CE722D783AA900166512 /* QuranAudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A5CE7F2D783ADC00166512 /* ahmed-al-ajmi-036.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahmed-al-ajmi-036.mp3"; sourceTree = "<group>"; };
+		A1A5CE802D783ADC00166512 /* ahmed-al-ajmi-055.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahmed-al-ajmi-055.mp3"; sourceTree = "<group>"; };
+		A1A5CE812D783ADC00166512 /* ahmed-al-ajmi-056.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahmed-al-ajmi-056.mp3"; sourceTree = "<group>"; };
+		A1A5CE822D783ADC00166512 /* ahmed-al-ajmi-101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahmed-al-ajmi-101.mp3"; sourceTree = "<group>"; };
+		A1A5CE832D783ADC00166512 /* saud-al-shuraim-030.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-030.mp3"; sourceTree = "<group>"; };
+		A1A5CE842D783ADC00166512 /* saud-al-shuraim-052.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-052.mp3"; sourceTree = "<group>"; };
+		A1A5CE852D783ADC00166512 /* saud-al-shuraim-059.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-059.mp3"; sourceTree = "<group>"; };
+		A1A5CE862D783ADC00166512 /* saud-al-shuraim-064.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-064.mp3"; sourceTree = "<group>"; };
+		A1A5CE872D783ADC00166512 /* saud-al-shuraim-067.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-067.mp3"; sourceTree = "<group>"; };
+		A1A5CE882D783ADC00166512 /* saud-al-shuraim-068.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-068.mp3"; sourceTree = "<group>"; };
+		A1A5CE892D783ADC00166512 /* saud-al-shuraim-069.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-069.mp3"; sourceTree = "<group>"; };
+		A1A5CE8A2D783ADC00166512 /* saud-al-shuraim-070.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-070.mp3"; sourceTree = "<group>"; };
+		A1A5CE8B2D783ADC00166512 /* saud-al-shuraim-071.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-071.mp3"; sourceTree = "<group>"; };
+		A1A5CE8C2D783ADC00166512 /* saud-al-shuraim-072.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-072.mp3"; sourceTree = "<group>"; };
+		A1A5CE8D2D783ADC00166512 /* saud-al-shuraim-073.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-073.mp3"; sourceTree = "<group>"; };
+		A1A5CE8E2D783ADC00166512 /* saud-al-shuraim-074.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-074.mp3"; sourceTree = "<group>"; };
+		A1A5CE8F2D783ADC00166512 /* saud-al-shuraim-075.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-075.mp3"; sourceTree = "<group>"; };
+		A1A5CE902D783ADC00166512 /* saud-al-shuraim-076.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-076.mp3"; sourceTree = "<group>"; };
+		A1A5CE912D783ADC00166512 /* saud-al-shuraim-077.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-077.mp3"; sourceTree = "<group>"; };
+		A1A5CE922D783ADC00166512 /* saud-al-shuraim-078.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-078.mp3"; sourceTree = "<group>"; };
+		A1A5CE932D783ADC00166512 /* saud-al-shuraim-079.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-079.mp3"; sourceTree = "<group>"; };
+		A1A5CE942D783ADC00166512 /* saud-al-shuraim-080.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-080.mp3"; sourceTree = "<group>"; };
+		A1A5CE952D783ADC00166512 /* saud-al-shuraim-082.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-082.mp3"; sourceTree = "<group>"; };
+		A1A5CE962D783ADC00166512 /* saud-al-shuraim-085.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-085.mp3"; sourceTree = "<group>"; };
+		A1A5CE972D783ADC00166512 /* saud-al-shuraim-086.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-086.mp3"; sourceTree = "<group>"; };
+		A1A5CE982D783ADC00166512 /* saud-al-shuraim-087.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-087.mp3"; sourceTree = "<group>"; };
+		A1A5CE992D783ADC00166512 /* saud-al-shuraim-088.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-088.mp3"; sourceTree = "<group>"; };
+		A1A5CE9A2D783ADC00166512 /* saud-al-shuraim-094.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-094.mp3"; sourceTree = "<group>"; };
+		A1A5CE9B2D783ADC00166512 /* saud-al-shuraim-097.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "saud-al-shuraim-097.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A5CE4E2D783AA800166512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE5F2D783AA900166512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE692D783AA900166512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A5CE482D783AA800166512 = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE532D783AA800166512 /* QuranAudioPlayer */,
+				A1A5CE652D783AA900166512 /* QuranAudioPlayerTests */,
+				A1A5CE6F2D783AA900166512 /* QuranAudioPlayerUITests */,
+				A1A5CE522D783AA800166512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A5CE522D783AA800166512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE512D783AA800166512 /* QuranAudioPlayer.app */,
+				A1A5CE622D783AA900166512 /* QuranAudioPlayerTests.xctest */,
+				A1A5CE6C2D783AA900166512 /* QuranAudioPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A5CE532D783AA800166512 /* QuranAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE542D783AA800166512 /* QuranAudioPlayerApp.swift */,
+				A1A5CE562D783AA800166512 /* ContentView.swift */,
+				A1A5CE9C2D783ADC00166512 /* tilawat */,
+				A1A5CE582D783AA900166512 /* Assets.xcassets */,
+				A1A5CE5A2D783AA900166512 /* QuranAudioPlayer.entitlements */,
+				A1A5CE5B2D783AA900166512 /* Preview Content */,
+			);
+			path = QuranAudioPlayer;
+			sourceTree = "<group>";
+		};
+		A1A5CE5B2D783AA900166512 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE5C2D783AA900166512 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1A5CE652D783AA900166512 /* QuranAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE662D783AA900166512 /* QuranAudioPlayerTests.swift */,
+			);
+			path = QuranAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		A1A5CE6F2D783AA900166512 /* QuranAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE702D783AA900166512 /* QuranAudioPlayerUITests.swift */,
+				A1A5CE722D783AA900166512 /* QuranAudioPlayerUITestsLaunchTests.swift */,
+			);
+			path = QuranAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+		A1A5CE9C2D783ADC00166512 /* tilawat */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5CE7F2D783ADC00166512 /* ahmed-al-ajmi-036.mp3 */,
+				A1A5CE802D783ADC00166512 /* ahmed-al-ajmi-055.mp3 */,
+				A1A5CE812D783ADC00166512 /* ahmed-al-ajmi-056.mp3 */,
+				A1A5CE822D783ADC00166512 /* ahmed-al-ajmi-101.mp3 */,
+				A1A5CE832D783ADC00166512 /* saud-al-shuraim-030.mp3 */,
+				A1A5CE842D783ADC00166512 /* saud-al-shuraim-052.mp3 */,
+				A1A5CE852D783ADC00166512 /* saud-al-shuraim-059.mp3 */,
+				A1A5CE862D783ADC00166512 /* saud-al-shuraim-064.mp3 */,
+				A1A5CE872D783ADC00166512 /* saud-al-shuraim-067.mp3 */,
+				A1A5CE882D783ADC00166512 /* saud-al-shuraim-068.mp3 */,
+				A1A5CE892D783ADC00166512 /* saud-al-shuraim-069.mp3 */,
+				A1A5CE8A2D783ADC00166512 /* saud-al-shuraim-070.mp3 */,
+				A1A5CE8B2D783ADC00166512 /* saud-al-shuraim-071.mp3 */,
+				A1A5CE8C2D783ADC00166512 /* saud-al-shuraim-072.mp3 */,
+				A1A5CE8D2D783ADC00166512 /* saud-al-shuraim-073.mp3 */,
+				A1A5CE8E2D783ADC00166512 /* saud-al-shuraim-074.mp3 */,
+				A1A5CE8F2D783ADC00166512 /* saud-al-shuraim-075.mp3 */,
+				A1A5CE902D783ADC00166512 /* saud-al-shuraim-076.mp3 */,
+				A1A5CE912D783ADC00166512 /* saud-al-shuraim-077.mp3 */,
+				A1A5CE922D783ADC00166512 /* saud-al-shuraim-078.mp3 */,
+				A1A5CE932D783ADC00166512 /* saud-al-shuraim-079.mp3 */,
+				A1A5CE942D783ADC00166512 /* saud-al-shuraim-080.mp3 */,
+				A1A5CE952D783ADC00166512 /* saud-al-shuraim-082.mp3 */,
+				A1A5CE962D783ADC00166512 /* saud-al-shuraim-085.mp3 */,
+				A1A5CE972D783ADC00166512 /* saud-al-shuraim-086.mp3 */,
+				A1A5CE982D783ADC00166512 /* saud-al-shuraim-087.mp3 */,
+				A1A5CE992D783ADC00166512 /* saud-al-shuraim-088.mp3 */,
+				A1A5CE9A2D783ADC00166512 /* saud-al-shuraim-094.mp3 */,
+				A1A5CE9B2D783ADC00166512 /* saud-al-shuraim-097.mp3 */,
+			);
+			path = tilawat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A5CE502D783AA800166512 /* QuranAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A5CE762D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayer" */;
+			buildPhases = (
+				A1A5CE4D2D783AA800166512 /* Sources */,
+				A1A5CE4E2D783AA800166512 /* Frameworks */,
+				A1A5CE4F2D783AA800166512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuranAudioPlayer;
+			productName = QuranAudioPlayer;
+			productReference = A1A5CE512D783AA800166512 /* QuranAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A5CE612D783AA900166512 /* QuranAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A5CE792D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayerTests" */;
+			buildPhases = (
+				A1A5CE5E2D783AA900166512 /* Sources */,
+				A1A5CE5F2D783AA900166512 /* Frameworks */,
+				A1A5CE602D783AA900166512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A5CE642D783AA900166512 /* PBXTargetDependency */,
+			);
+			name = QuranAudioPlayerTests;
+			productName = QuranAudioPlayerTests;
+			productReference = A1A5CE622D783AA900166512 /* QuranAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1A5CE6B2D783AA900166512 /* QuranAudioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A5CE7C2D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayerUITests" */;
+			buildPhases = (
+				A1A5CE682D783AA900166512 /* Sources */,
+				A1A5CE692D783AA900166512 /* Frameworks */,
+				A1A5CE6A2D783AA900166512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A5CE6E2D783AA900166512 /* PBXTargetDependency */,
+			);
+			name = QuranAudioPlayerUITests;
+			productName = QuranAudioPlayerUITests;
+			productReference = A1A5CE6C2D783AA900166512 /* QuranAudioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A5CE492D783AA800166512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A1A5CE502D783AA800166512 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A1A5CE612D783AA900166512 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A1A5CE502D783AA800166512;
+					};
+					A1A5CE6B2D783AA900166512 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A1A5CE502D783AA800166512;
+					};
+				};
+			};
+			buildConfigurationList = A1A5CE4C2D783AA800166512 /* Build configuration list for PBXProject "QuranAudioPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A5CE482D783AA800166512;
+			productRefGroup = A1A5CE522D783AA800166512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A5CE502D783AA800166512 /* QuranAudioPlayer */,
+				A1A5CE612D783AA900166512 /* QuranAudioPlayerTests */,
+				A1A5CE6B2D783AA900166512 /* QuranAudioPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A5CE4F2D783AA800166512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A5CE5D2D783AA900166512 /* Preview Assets.xcassets in Resources */,
+				A1A5CEA32D783ADC00166512 /* saud-al-shuraim-059.mp3 in Resources */,
+				A1A5CEA02D783ADC00166512 /* ahmed-al-ajmi-101.mp3 in Resources */,
+				A1A5CE9F2D783ADC00166512 /* ahmed-al-ajmi-056.mp3 in Resources */,
+				A1A5CEA82D783ADC00166512 /* saud-al-shuraim-070.mp3 in Resources */,
+				A1A5CEB52D783ADC00166512 /* saud-al-shuraim-086.mp3 in Resources */,
+				A1A5CE9E2D783ADC00166512 /* ahmed-al-ajmi-055.mp3 in Resources */,
+				A1A5CEB92D783ADC00166512 /* saud-al-shuraim-097.mp3 in Resources */,
+				A1A5CEB72D783ADC00166512 /* saud-al-shuraim-088.mp3 in Resources */,
+				A1A5CEB82D783ADC00166512 /* saud-al-shuraim-094.mp3 in Resources */,
+				A1A5CEAC2D783ADC00166512 /* saud-al-shuraim-074.mp3 in Resources */,
+				A1A5CEA92D783ADC00166512 /* saud-al-shuraim-071.mp3 in Resources */,
+				A1A5CEA42D783ADC00166512 /* saud-al-shuraim-064.mp3 in Resources */,
+				A1A5CEB62D783ADC00166512 /* saud-al-shuraim-087.mp3 in Resources */,
+				A1A5CEAA2D783ADC00166512 /* saud-al-shuraim-072.mp3 in Resources */,
+				A1A5CEB12D783ADC00166512 /* saud-al-shuraim-079.mp3 in Resources */,
+				A1A5CEB02D783ADC00166512 /* saud-al-shuraim-078.mp3 in Resources */,
+				A1A5CEB42D783ADC00166512 /* saud-al-shuraim-085.mp3 in Resources */,
+				A1A5CEAD2D783ADC00166512 /* saud-al-shuraim-075.mp3 in Resources */,
+				A1A5CEA12D783ADC00166512 /* saud-al-shuraim-030.mp3 in Resources */,
+				A1A5CEA52D783ADC00166512 /* saud-al-shuraim-067.mp3 in Resources */,
+				A1A5CEA72D783ADC00166512 /* saud-al-shuraim-069.mp3 in Resources */,
+				A1A5CE592D783AA900166512 /* Assets.xcassets in Resources */,
+				A1A5CEA62D783ADC00166512 /* saud-al-shuraim-068.mp3 in Resources */,
+				A1A5CEAE2D783ADC00166512 /* saud-al-shuraim-076.mp3 in Resources */,
+				A1A5CEA22D783ADC00166512 /* saud-al-shuraim-052.mp3 in Resources */,
+				A1A5CEAF2D783ADC00166512 /* saud-al-shuraim-077.mp3 in Resources */,
+				A1A5CE9D2D783ADC00166512 /* ahmed-al-ajmi-036.mp3 in Resources */,
+				A1A5CEB32D783ADC00166512 /* saud-al-shuraim-082.mp3 in Resources */,
+				A1A5CEAB2D783ADC00166512 /* saud-al-shuraim-073.mp3 in Resources */,
+				A1A5CEB22D783ADC00166512 /* saud-al-shuraim-080.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE602D783AA900166512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE6A2D783AA900166512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A5CE4D2D783AA800166512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A5CE572D783AA800166512 /* ContentView.swift in Sources */,
+				A1A5CE552D783AA800166512 /* QuranAudioPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE5E2D783AA900166512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A5CE672D783AA900166512 /* QuranAudioPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5CE682D783AA900166512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A5CE732D783AA900166512 /* QuranAudioPlayerUITestsLaunchTests.swift in Sources */,
+				A1A5CE712D783AA900166512 /* QuranAudioPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A5CE642D783AA900166512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A5CE502D783AA800166512 /* QuranAudioPlayer */;
+			targetProxy = A1A5CE632D783AA900166512 /* PBXContainerItemProxy */;
+		};
+		A1A5CE6E2D783AA900166512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A5CE502D783AA800166512 /* QuranAudioPlayer */;
+			targetProxy = A1A5CE6D2D783AA900166512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1A5CE742D783AA900166512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1A5CE752D783AA900166512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1A5CE772D783AA900166512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuranAudioPlayer/QuranAudioPlayer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuranAudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A5CE782D783AA900166512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuranAudioPlayer/QuranAudioPlayer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuranAudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1A5CE7A2D783AA900166512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranAudioPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuranAudioPlayer";
+			};
+			name = Debug;
+		};
+		A1A5CE7B2D783AA900166512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranAudioPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuranAudioPlayer";
+			};
+			name = Release;
+		};
+		A1A5CE7D2D783AA900166512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuranAudioPlayer;
+			};
+			name = Debug;
+		};
+		A1A5CE7E2D783AA900166512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.QuranAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuranAudioPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A5CE4C2D783AA800166512 /* Build configuration list for PBXProject "QuranAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A5CE742D783AA900166512 /* Debug */,
+				A1A5CE752D783AA900166512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A5CE762D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A5CE772D783AA900166512 /* Debug */,
+				A1A5CE782D783AA900166512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A5CE792D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A5CE7A2D783AA900166512 /* Debug */,
+				A1A5CE7B2D783AA900166512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A5CE7C2D783AA900166512 /* Build configuration list for PBXNativeTarget "QuranAudioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A5CE7D2D783AA900166512 /* Debug */,
+				A1A5CE7E2D783AA900166512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A5CE492D783AA800166512 /* Project object */;
+}
